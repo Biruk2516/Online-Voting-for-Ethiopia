@@ -1,0 +1,26 @@
+{
+  "home": {
+    "title": "Welcome to the Voting System",
+    "subtitle": "Empowering democracy with technology",
+    "candidates": "Candidates",
+    "viewProfile": "View Profile",
+    "profile": "Profile",
+
+    "party1": "Unity for Ethiopia",
+    "party2": "Peace and Progress",
+    "party3": "Green Ethiopia",
+
+    "bio1": "Experienced leader focused on economic reform.",
+    "bio2": "Advocate for education and women’s rights.",
+    "bio3": "Focused on environment and sustainability.",
+
+     "aboutTitle": "About Online Voting in Ethiopia",
+    "aboutParagraph1": "Ethiopia's online voting system is designed to make democratic participation more accessible and transparent.",
+    "aboutParagraph2": "Through secure digital platforms, citizens can cast their votes safely and efficiently.",
+    "aboutParagraph3": "This technology fosters inclusivity and strengthens the democratic process across all regions.",
+    "aboutDescription": "This online voting platform is designed to securely and transparently facilitate elections across Ethiopia. Your participation is crucial for a strong democracy.",
+    "logout": "Logout",
+    "backHome": "Back to Home",
+    "profileDescription": "This online voting platform securely enables Ethiopian citizens to participate in democratic elections anytime, anywhere."
+  }
+}

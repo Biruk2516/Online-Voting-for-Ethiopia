@@ -1,0 +1,86 @@
+/* AboutUs.css */
+.about-us-container {
+ width: 90vw;
+  margin: 0 auto;
+  text-align: center;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.about-us-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #2d3748;
+}
+
+.intro-text {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: #555;
+}
+
+.about-cards {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.about-card {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  flex: 1 1 250px;
+  max-width: 500px;
+  text-align: left;
+}
+
+.about-card h3 {
+  color: #2d3748;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.about-card h2 {
+  font-size: 1.5rem;
+  color: #1a73e8;
+  margin-bottom: 1rem;
+}
+
+.about-card p {
+  color: #555;
+  font-size: 1rem;
+}
+
+.contact-section {
+  background-color: #f7fafc;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.contact-section p {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.contact-section h4 {
+  font-size: 1.3rem;
+  color: #2d3748;
+  margin-bottom: 0.5rem;
+}
+
+.contact-section ul {
+  list-style: none;
+  padding: 0;
+  color: #555;
+}
+
+.contact-section ul li {
+  font-size: 1rem;
+  margin: 0.3rem 0;
+}

@@ -1,0 +1,128 @@
+.signup-page {
+    width: 600px;
+    padding: 20px;
+    top: 0;
+    text-align: center;
+    background-color: rgb(245, 245, 245,0.5);
+    border-radius: 20px;
+    background-repeat: no-repeat;  /* Prevents the image from repeating */
+    background-size: cover;        /* Makes the image cover the entire background */
+    background-position: center;   /* Centers the image */
+  }
+  .signup-page form {
+    display: flex;
+    flex-direction: column;
+  }
+.signup-page h1{
+  font-size: 1.5em;
+  color: darkblue;
+  margin-bottom: 20px;
+}
+  .toggle-button:focus {
+    outline: none;
+    border:none;
+  }
+
+  .signup-page label{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+  }
+  .signup-page input {
+    margin: 15px 6px;
+    padding: 15px;
+    border: 2px solid rgba(121, 112, 96, 0.742);
+    background-color: hsl(39, 33%, 92%);
+    border-radius: 10px;
+    font-size: 16px;
+    outline: orange;
+
+  }
+.password {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.password input{
+transition: none;
+width: 100%;
+}
+
+.password .toggle-button{
+ position: absolute;
+ right: 20px;
+ border: none;
+ font-size: 1.6em;
+}
+.password .toggle-button:active{
+  background-color: none;
+  border: none;
+}
+  .signup-page h2 {
+    color: rgb(0, 0, 130);
+  }
+
+.signup-page pre {
+  font-size: 1.3em;
+  padding-bottom: 20px;
+}
+.names p {
+  text-align: center;
+}
+
+.signup-page p {
+    text-align: left;
+  }
+
+.signup-button {
+  background-color: black;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 1.1em;
+    padding: 10px;
+    width: 100px;
+    box-shadow:  0 0 3px rgb(89, 89, 206);
+    border-radius: 15px;
+}
+
+.signup-button:hover {
+  background-color: white;
+    transition: 0.3s ease;
+    color: black;
+}
+.names  {
+  margin-top: -20px;
+  display: flex;
+  justify-content: space-between;
+}
+.names input{
+  width: 300px;
+}
+.policy {
+  margin-top: -20px;
+}
+.sign{
+  align-items: center;
+  background-color: rgb(245, 245, 245,0.5);
+  margin-left: 45px;
+}
+.sign img{
+  border-radius: 110px;
+  margin: 5px;
+}
+.sign img:hover{
+  cursor: pointer;
+  border: 1px solid rgb(0, 181, 231);
+  box-shadow: 0 2px 5px rgb(2, 132, 146);
+}
+
+.signup-description{
+    width: 500px;
+    height: 600px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: lightgray;
+}

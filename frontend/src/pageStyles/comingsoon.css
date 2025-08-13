@@ -1,0 +1,66 @@
+/* ComingSoon.css */
+.coming-soon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f3e7e9, #e3eeff);
+    font-family: Arial, sans-serif;
+  }
+  
+  .message-box {
+    max-width: 600px;
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .message-box h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .message-box p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+  }
+  
+  .message-box ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 1.5rem;
+  }
+  
+  .message-box ul li {
+    font-size: 1rem;
+    color: #666;
+    padding: 0.3rem 0;
+    position: relative;
+  }
+  
+  .message-box ul li::before {
+    content: "✓";
+    color: #4caf50;
+    font-weight: bold;
+    margin-right: 0.5rem;
+  }
+  
+  .message-box strong {
+    color: #0073e6;
+  }
+  
+  @media (max-width: 600px) {
+    .message-box h1 {
+      font-size: 1.5rem;
+    }
+  
+    .message-box p, .message-box ul li {
+      font-size: 1rem;
+    }
+  }
+  

@@ -1,0 +1,96 @@
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 600px;
+    padding: 15px;
+    text-align: center;
+    background-color: rgb(245, 245, 245,0.5);
+    height: 550px;
+    border-radius: 20px;
+  }
+  .login-page form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .login-page input {
+    margin: 15px 6px;
+    padding: 15px;
+    border: 2px solid rgba(121, 112, 96, 0.742);
+    background-color: hsl(39, 33%, 92%);
+    border-radius: 10px;
+    font-size: 16px;
+    outline: orange;
+    width: 400px;
+  }
+
+  .toggle-button:focus{
+    outline: none;
+    border: none;
+  }
+ 
+  .login-page .button {
+    background-color: black;
+    margin: 5px;
+    color: white;
+    font-size: 1.1em;
+    padding: 10px;
+    width: 100px;
+    box-shadow:  0 0 3px rgb(89, 89, 206);
+    border-radius: 15px;
+  }
+
+  .login-page .button:hover {
+    background-color: white;
+    transition: 0.3s ease;
+    color: black;
+  }
+
+.login-options {
+  border: 2px solid whitesmoke;
+  margin: 5px;
+  align-items: center;
+  width: 400px;
+}
+.login-options h3 a{
+  margin: 15px;
+  text-decoration: none;
+  color: black;
+}
+
+  .login-page pre {
+    font-size: 1.1em;
+    padding: 10px;
+  }
+
+  .login-page h2 {
+    color: rgb(0, 0, 113);
+    font-size: 2em;
+  }
+
+ .login-page img {
+  float: left;
+  border-radius: 110px;
+  margin: 5px;
+  }
+
+ .login-page img:hover {
+    cursor: pointer;
+    border: 1px solid rgb(0, 181, 231);
+    box-shadow: 0 2px 5px rgb(2, 132, 146);
+  }
+
+
+.password-button{
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-left: -25px;
+}
+.toggle-button{
+  margin-left: -45px;
+  font-size: 1.6em;
+}

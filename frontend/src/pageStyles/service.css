@@ -1,0 +1,39 @@
+.service-page {
+  padding: 2rem;
+  background-color: #f9f9f9;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+.service-title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.service-list {
+  display: flex;
+  justify-content: space-around;
+  gap: 1.5rem;
+}
+
+.service-item {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  flex: 1;
+  text-align: center;
+}
+
+.service-item h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  color: #0066cc;
+}
+
+.service-item p {
+  font-size: 1rem;
+  color: #666;
+}
