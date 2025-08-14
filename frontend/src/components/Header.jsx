@@ -8,7 +8,7 @@ const MODELS = {
   en: null, // no translation needed
 };
 
-const API_TOKEN = "hf_xxx_your_token_here";
+const API_TOKEN = import.meta.env.VITE_HUGGINGFACE_API_TOKEN;
 
 async function translateText(text, lang) {
   if (!MODELS[lang]) return text; // English or unsupported, return as is
